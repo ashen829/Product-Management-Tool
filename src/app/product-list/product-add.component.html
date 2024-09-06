@@ -1,0 +1,60 @@
+<div class="card">
+    <div class="card-header">
+      {{pageTitle}}
+    </div>
+    <div class="card-body">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="row">
+            <div class="col-md-4">Name:</div>
+            <div class="col-md-8">
+              <input [(ngModel)]="newProduct.productName" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">Code:</div>
+            <div class="col-md-8">
+              <input [(ngModel)]="newProduct.productCode" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">Description:</div>
+            <div class="col-md-8">
+              <input [(ngModel)]="newProduct.description" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">Availability:</div>
+            <div class="col-md-8">
+              <input [(ngModel)]="newProduct.releaseDate" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">Price:</div>
+            <div class="col-md-8">
+              <input [(ngModel)]="newProduct.price" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">5 Star Rating:</div>
+            <div class="col-md-8">
+              <input [(ngModel)]="newProduct.starRatings" />
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-4">
+          <div class="col-md-4">Product Image:</div>
+          <input type="file" class="file-upload" [(ngModel)]="newProduct.imageUrl" >
+        </div>
+      </div>
+    </div>
+  
+    <div class="card-footer">
+      <button class="btn btn-outline-secondary" style="width:80px" (click)="addProduct(newProduct)">
+        <i class="fa fa-save"></i>
+        Add
+      </button>
+    </div>
+  </div>
+  
