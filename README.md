@@ -15,7 +15,8 @@ This project is built with an Angular frontend and a json-server backend using N
 
 2. **Product View**
 - Endpoint: http://localhost:4201/product/:id
-- From the Product List page, clicking the "View" button navigates the user to the Product View page, displaying all attributes of the selected product. The page includes: Edit Product: Allows editing any product attribute. Clicking the "Edit" button enables users to update the product details, and they can save changes using the "Save" button.
+- From the Product List page, clicking the "View" button navigates the user to the Product View page, displaying all attributes of the selected product. The page includes:
+- Allows editing any product attribute. Clicking the "Edit" button enables users to update the product details, and they can save changes using the "Save" button.
   
 ![image](https://github.com/user-attachments/assets/5a66b99e-166d-468c-a1ff-304a017c98c0)
 
